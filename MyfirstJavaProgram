@@ -1,0 +1,30 @@
+package week1.day1;
+
+public class MyFirstJavaClass 
+{
+	public static byte speedLimit = 120;
+	short yearOfMake = 2022;
+	int regNumber = 3456789;
+	long chasisNumber = 545678988754l;
+	float mileage = 14.5f;
+	double cost = 1400000.6789654;
+	char noofSeats =7;
+	boolean isSportsModel = true;
+	
+
+	public static void main(String[] args)
+			{
+		
+			System.out.println("speedLimit is "+speedLimit);
+			System.out.println("Welcome to Java");
+			int a=5;
+			System.out.println(++a);
+			System.out.println(a++);
+			System.out.println(a);
+			for(int i=1;i<=10;i++)
+			{
+				System.out.println(i);
+			}
+			}
+}
+
